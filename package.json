@@ -36,7 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://dep-backend-buk6.onrender.com/",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }

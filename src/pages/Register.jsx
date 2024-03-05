@@ -13,7 +13,7 @@ const Register = () => {
     const { name, email, password } = formData;
 
     try {
-      await axios.post("api/v1/user/register", {
+      await axios.post("https://dep-backend-buk6.onrender.com/api/v1/user/register", {
         name,
         email,
         password,
