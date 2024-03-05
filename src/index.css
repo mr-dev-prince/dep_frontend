@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputBox {
+  @apply p-2 rounded-lg shadow-lg;
+}
+
+.btn {
+  @apply p-2 shadow-lg rounded-lg hover:bg-blue-500 transition-all duration-200 hover:text-white font-semibold;
+}
